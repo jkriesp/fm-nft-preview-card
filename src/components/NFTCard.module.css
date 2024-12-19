@@ -1,0 +1,54 @@
+.card {
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  position: relative;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.image img {
+  border-radius: 15px;
+  transition: opacity 0.3s;
+}
+
+.image .overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(0, 255, 247, 0.5);
+  border-radius: 15px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.image .overlay:hover {
+  opacity: 1;
+}
+
+.content {
+  padding: 0px 20px 20px 20px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--text-secondary);
+  opacity: 0.2;
+  margin: 20px 0;
+}

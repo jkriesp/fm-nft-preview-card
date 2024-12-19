@@ -1,0 +1,25 @@
+.creatorInfo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  text-align: center;
+}
+
+.profilePic {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--white);
+  object-fit: cover;
+}
+
+.name {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+a.name:hover {
+  color: var(--accent-cyan);
+}

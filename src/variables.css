@@ -1,0 +1,14 @@
+:root {
+  --primary-bg: hsl(216, 50%, 16%);
+  --secondary-bg: hsl(215, 32%, 27%);
+  --card-bg: hsl(216, 50%, 25%);
+  --accent-cyan: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --font-primary: "Outfit", sans-serif;
+
+  --text-primary: hsl(0, 0%, 100%);
+  --text-secondary: hsl(0, 0%, 85%);
+  --font-size-small: 14px;
+  --font-size-medium: 18px;
+  --font-size-large: 22px;
+}

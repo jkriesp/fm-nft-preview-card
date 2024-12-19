@@ -1,0 +1,28 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price,
+.timeLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.icon {
+  width: 16px; /* Adjust size to match the design */
+  height: 16px;
+}
+
+.price span {
+  font-size: var(--font-size-small);
+  color: var(--accent-cyan);
+}
+
+.timeLeft span {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+}

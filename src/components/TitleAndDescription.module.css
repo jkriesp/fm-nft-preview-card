@@ -1,0 +1,22 @@
+.titleAndDescription {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.title {
+  font-size: var(--font-size-large);
+  color: var(--white);
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: var(--accent-cyan);
+}
+
+.description {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
